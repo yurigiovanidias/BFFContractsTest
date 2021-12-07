@@ -1,0 +1,12 @@
+{
+  "diff": true,
+  "extension": ["js"],
+  "require": [
+    "tests/test.js"
+  ],
+  "package": "../package.json",
+  "reporter": "spec",
+  "slow": 5000,
+  "timeout": 20000,
+  "ui": "tdd"
+}
